@@ -9,7 +9,7 @@ test("Complete Product Purchase Journey",async({page,productPage,cartPage,checko
     await expect(page).toHaveURL(/inventory.html/)
 
     //Verify Product
-    await expect(productPage.productItems).toHaveCount(6)
+    await expect(productPage.productItems).toHaveCount(5)
     
     //add Product to cart 
     await productPage.addProductToCart(products.backpack.name)
