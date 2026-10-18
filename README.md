@@ -231,4 +231,9 @@ GitHub: https://github.com/tejaslandge0897/eCommerseSauceDemo
 - Improve test reporting and failure diagnostics.
 - Add further API tests when suitable application endpoints are available.
 
-Jenkins SCM polling verification.
+
+## Login Automation
+
+- Validate successful login with valid credentials.
+- Validate login failure with invalid credentials.
+- Verify that the user reaches the inventory page after login.
